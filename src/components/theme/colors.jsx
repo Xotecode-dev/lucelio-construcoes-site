@@ -5,7 +5,8 @@ export const colors = {
   primary: {
     light: '#00ff37ff',    // #8184C2 - Azul claro
     main: '#0006c2ff',     // #3A3D82 - Azul escuro
-    dark: '#2A2D5F'      // Versão mais escura do azul principal
+    dark: '#2A2D5F',
+    red: '#CF171D'     // Versão mais escura do azul principal
   },
   
   accent: {
@@ -18,6 +19,7 @@ export const colors = {
   neutral: {
     lightest: '#E1E0EB', // #E1E0EB - Cinza muito claro
     light: '#A7A8B6',    // #A7A8B6 - Cinza médio
+    gray: '#C9CDCF',    // #A7A8B6 - Cinza médio
     dark: '#6B7280',     // Cinza escuro
     darkest: '#374151'   // Cinza muito escuro
   },

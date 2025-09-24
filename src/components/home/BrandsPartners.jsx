@@ -1,11 +1,11 @@
 import React from "react";
 
 const brands = [
-  { name: "Votorantim", logo: "" },
-  { name: "Tigre", logo: "" },
+  { name: "Verbras", logo: "https://th.bing.com/th/id/R.0a87b3105f6a57667499a4eb550f7a4b?rik=BrXI9VxESi61sQ&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f102%2f0BEEF9378EE52D0DE45A90253DCC0B79%2ftintas_verbras.png&ehk=D0RUgheJRk8YIUy%2f6Z2xgPrro0yt1%2bbTsrMMNFx6cSU%3d&risl=&pid=ImgRaw&r=0" },
+  { name: "Tigre", logo: "https://www.imagensempng.com.br/wp-content/uploads/2023/05/Logo-Tigre-Png-1024x1024.png" },
   { name: "Eternit", logo: "" },
   { name: "Suvinil", logo: "" },
-  { name: "Coral", logo: "" },
+  { name: "Cerbras", logo: "https://th.bing.com/th/id/R.d7796b98b68946bdf3a33f69def14d8a?rik=xp8YChXR91uTvQ&riu=http%3a%2f%2fwww.elgalvao.com.br%2fimagens%2fcerbras.png&ehk=l2a%2fQ0MYsawcKd%2bPNZyWL48QViFnlMuxM4qP6Lkza2o%3d&risl=&pid=ImgRaw&r=0" },
   { name: "Quartzolit", logo: "" },
   { name: "Gerdau", logo: "" },
   { name: "Brasilit", logo: "" }
@@ -17,9 +17,9 @@ export default function BrandsPartners() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#3A3D82] mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[var(--primary-main)] mb-4">
             Marcas
-            <span className="text-[#D65C3E]"> Parceiras</span>
+            <span className="text-[var(--accent-main)]"> Parceiras</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Trabalhamos com as marcas mais confiáveis do mercado

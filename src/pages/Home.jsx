@@ -5,6 +5,7 @@ import ProductCategories from "../components/home/ProductCategories.jsx";
 import BrandsPartners from "../components/home/BrandsPartners.jsx";
 import Testimonials from "../components/home/Testimonials.jsx";
 import { colors } from "../components/theme/colors.jsx";
+import MapSection from "../components/shared/MapSection.jsx";
 
 export default function Home() {
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function Home() {
       root.style.setProperty('--primary-light', colors.primary.light);
       root.style.setProperty('--primary-main', colors.primary.main);
       root.style.setProperty('--primary-dark', colors.primary.dark);
+      root.style.setProperty('--primary-red', colors.primary.red);
 
       root.style.setProperty('--accent-main', colors.accent.main);
       root.style.setProperty('--accent-dark', colors.accent.dark);
@@ -20,9 +22,10 @@ export default function Home() {
       root.style.setProperty('--color-warning', colors.warning);
 
       root.style.setProperty('--neutral-lightest', colors.neutral.lightest);
-      root.style.setProperty('--neutral-main', colors.neutral.light);
+      root.style.setProperty('--neutral-light', colors.neutral.light);
+      root.style.setProperty('--neutral-gray', colors.neutral.gray);
       root.style.setProperty('--neutral-dark', colors.neutral.dark);
-      root.style.setProperty('--neutral-dark', colors.neutral.darkest);
+      root.style.setProperty('--neutral-darkest', colors.neutral.darkest);
 
       root.style.setProperty('--color-success', colors.success);
       root.style.setProperty('--color-error', colors.error);
@@ -38,6 +41,7 @@ export default function Home() {
       <ProductCategories />
       <BrandsPartners />
       <Testimonials />
+      <MapSection />
     </div>
   );
 }
