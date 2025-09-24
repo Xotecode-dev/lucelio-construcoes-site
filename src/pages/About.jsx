@@ -1,5 +1,6 @@
 import React from "react";
 import { Award, Users, Clock, Shield, Truck, Calculator } from "lucide-react";
+import Frente from "../assets/img/imagem da frente.png"
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
                 Nossa História
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Fundada em 2004, a Lucélio Construções nasceu do sonho de fornecer 
+                Fundada em 2005, a Lucélio Construções nasceu do sonho de fornecer 
                 materiais de construção de alta qualidade com atendimento personalizado. 
                 Começamos como um pequeno depósito e hoje somos referência na região.
               </p>
@@ -38,12 +39,12 @@ export default function About() {
               </p>
               <div className="flex items-center gap-4 text-[#D65C3E] font-semibold">
                 <Award className="w-6 h-6" />
-                <span>Tradição e Confiança desde 2004</span>
+                <span>Tradição e Confiança desde 2005</span>
               </div>
             </div>
             <div>
               <img 
-                src="https://i.pinimg.com/736x/22/1c/a4/221ca4c44dcba6a503261ae751f08e4c.jpg"
+                src={Frente}
                 alt="Loja Lucélio Construções"
                 className="rounded-2xl shadow-2xl"
               />
@@ -73,7 +74,7 @@ export default function About() {
               <Users className="w-12 h-12 text-[#8184C2] mx-auto mb-4" />
               <h3 className="text-xl font-bold text-[#3A3D82] mb-4">Atendimento</h3>
               <p className="text-gray-600">
-                Atendimento personalizado e suporte técnico especializado
+                Atendimento personalizado com foco nas necessidades do cliente
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl text-center shadow-lg">

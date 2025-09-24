@@ -1,14 +1,20 @@
 import React from "react";
+import Arielle from "../../assets/img/Arielle logo transparente.png";
+import Cerbras from "../../assets/img/cerbras logo transparente.png";
+import Tigre from "../../assets/img/logo tigre transparente.png";
+import Verbras from "../../assets/img/verbras logo transparente.png";
+import Idealle from "../../assets/img/idealle logo transparente.png";
+import TintasMil from "../../assets/img/tintas mil logo transparente.png";
+import Mor from "../../assets/img/mor logo transparente.png";
 
 const brands = [
-  { name: "Verbras", logo: "https://th.bing.com/th/id/R.0a87b3105f6a57667499a4eb550f7a4b?rik=BrXI9VxESi61sQ&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f102%2f0BEEF9378EE52D0DE45A90253DCC0B79%2ftintas_verbras.png&ehk=D0RUgheJRk8YIUy%2f6Z2xgPrro0yt1%2bbTsrMMNFx6cSU%3d&risl=&pid=ImgRaw&r=0" },
-  { name: "Tigre", logo: "https://www.imagensempng.com.br/wp-content/uploads/2023/05/Logo-Tigre-Png-1024x1024.png" },
-  { name: "Eternit", logo: "" },
-  { name: "Suvinil", logo: "" },
-  { name: "Cerbras", logo: "https://th.bing.com/th/id/R.d7796b98b68946bdf3a33f69def14d8a?rik=xp8YChXR91uTvQ&riu=http%3a%2f%2fwww.elgalvao.com.br%2fimagens%2fcerbras.png&ehk=l2a%2fQ0MYsawcKd%2bPNZyWL48QViFnlMuxM4qP6Lkza2o%3d&risl=&pid=ImgRaw&r=0" },
-  { name: "Quartzolit", logo: "" },
-  { name: "Gerdau", logo: "" },
-  { name: "Brasilit", logo: "" }
+  { name: "Arielle", logo: Arielle },
+  { name: "Cerbras", logo: Cerbras },
+  { name: "Tigre", logo: Tigre},
+  { name: "Verbras", logo: Verbras },
+  { name: "Idealle", logo: Idealle },
+  { name: "TintasMil", logo: TintasMil },
+  { name: "Mor", logo: Mor },
 ];
 
 export default function BrandsPartners() {
@@ -27,16 +33,16 @@ export default function BrandsPartners() {
         </div>
 
         {/* Brands Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 items-center">
+        <div className="flex flex-wrap flex-row gap-2 items-center justify-center">
           {brands.map((brand, index) => (
             <div 
               key={index}
-              className="bg-gray-50 p-4 rounded-xl hover:bg-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group"
+              className="p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group"
             >
               <img 
                 src={brand.logo} 
                 alt={`Logo ${brand.name}`}
-                className="w-full h-12 object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                className="w-32 sm:h-32 md:h-45 lg:h-30 object-contain filter lg:grayscale group-hover:grayscale-0 transition-all duration-300"
               />
             </div>
           ))}

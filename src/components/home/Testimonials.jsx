@@ -3,25 +3,22 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "João Silva",
-    date: "Dezembro 2024",
-    text: "Excelente atendimento! Materiais de primeira qualidade e entrega no prazo. Recomendo para qualquer obra.",
+    name: "Jessika Borges",
+    date: "2022",
+    text: "Ótimo atendimento. Entrega rápida e produtos com valores negociáveis.",
     rating: 5,
-    project: "Construção Residencial"
   },
   {
-    name: "Maria Santos",
-    date: "Novembro 2024",
-    text: "Já é a terceira vez que compro aqui. Preços justos e sempre me orientam na escolha certa dos produtos.",
+    name: "Patrícia Alvores",
+    date: "2024",
+    text: "O melhor de nossa cidade em loja de material de construção",
     rating: 5,
-    project: "Reforma de Casa"
   },
   {
-    name: "Pedro Costa",
-    date: "Outubro 2024",
-    text: "Empresa séria e confiável. Forneceram todo material para minha obra e ainda deram dicas valiosas.",
+    name: "Wallace Oliveira",
+    date: "2020",
+    text: "Local com diversos materiais de construção e atendimento exemplar.",
     rating: 5,
-    project: "Construção Comercial"
   }
 ];
 
@@ -88,7 +85,7 @@ export default function Testimonials() {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <div className="bg-white bg-opacity-10 backdrop-blur-sm p-8 rounded-2xl border border-white border-opacity-20">
-            <h3 className="text-2xl font-bold text-white mb-4">
+            <h3 className="text-2xl font-bold text-[var(--neutral-dark)] mb-4">
               Quer ser nosso próximo cliente satisfeito?
             </h3>
             <a 

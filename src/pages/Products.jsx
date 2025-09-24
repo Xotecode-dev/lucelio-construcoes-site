@@ -1,43 +1,45 @@
 import React from "react";
 import { MessageCircle, ArrowRight } from "lucide-react";
 import CimentoImg from "../assets/img/cimento.png";
+import Tintas from "../assets/img/tintas.png"
+import {colors} from "../components/theme/colors";
 
 const productCategories = [
   {
     title: "Cimento e Argamassa",
     items: ["Cimento Portland", "Argamassa AC-I", "Argamassa AC-II", "Cal Hidratada"],
     image: CimentoImg,
-    color: "#D65C3E"
+    color: colors.whatsapp
   },
   {
     title: "Tijolos e Blocos",
     items: ["Tijolo Cerâmico", "Bloco de Concreto", "Bloco Estrutural", "Tijolo Refratário"],
-    image: "https://i.pinimg.com/736x/2f/09/33/2f0933c44f13f34950c3f635966bfc08.jpg",
-    color: "#BA3934"
+    image: "https://i.pinimg.com/736x/80/0c/e8/800ce80a37aaa08f67768dfb1a7b040a.jpg",
+    color: colors.whatsapp
   },
   {
     title: "Telhas e Coberturas",
     items: ["Telha Cerâmica", "Telha Fibrocimento", "Cumeeira", "Caixa d'Água"],
-    image: "https://i.pinimg.com/736x/2f/09/33/2f0933c44f13f34950c3f635966bfc08.jpg",
-    color: "#3A3D82"
+    image: "https://i.pinimg.com/736x/5e/66/08/5e66084149a7b4ea614be5b31cbe1650.jpg",
+    color: colors.whatsapp
   },
   {
-    title: "Ferragens e Ferramentas",
-    items: ["Pregos", "Parafusos", "Martelo", "Furadeira"],
-    image: "https://i.pinimg.com/736x/2f/09/33/2f0933c44f13f34950c3f635966bfc08.jpg",
-    color: "#8184C2"
+    title: "Lajes e Pré-moldados",
+    items: ["Lajes", "blocos", "vigas"],
+    image: "https://i.pinimg.com/736x/bc/2e/4d/bc2e4d10fb3d0f58c16828c5eb96e438.jpg",
+    color: colors.whatsapp
   },
   {
     title: "Tintas e Vernizes",
     items: ["Tinta Acrílica", "Tinta PVA", "Verniz", "Primer"],
-    image: "https://i.pinimg.com/736x/2f/09/33/2f0933c44f13f34950c3f635966bfc08.jpg",
-    color: "#ECDE2D"
+    image: Tintas,
+    color: colors.whatsapp
   },
   {
     title: "Materiais Elétricos",
     items: ["Fios e Cabos", "Disjuntores", "Tomadas", "Interruptores"],
-    image: "https://i.pinimg.com/736x/2f/09/33/2f0933c44f13f34950c3f635966bfc08.jpg",
-    color: "#D65C3E"
+    image: "https://i.pinimg.com/736x/22/08/a4/2208a438414acfd98b56f110b7e0f19b.jpg",
+    color: colors.whatsapp
   }
 ];
 
@@ -88,7 +90,7 @@ export default function Products() {
                         <li key={itemIndex} className="flex items-center gap-2 text-gray-600">
                           <div 
                             className="w-2 h-2 rounded-full"
-                            style={{ backgroundColor: category.color }}
+                            style={{ backgroundColor: colors.accent.main }}
                           ></div>
                           {item}
                         </li>

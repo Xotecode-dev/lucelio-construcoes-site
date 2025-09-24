@@ -25,9 +25,9 @@ const categories = [
     color: colors.primary.main
   },
   {
-    title: "Ferragens e Ferramentas",
-    description: "Pregos, parafusos, ferramentas e acessórios",
-    image: "https://i.pinimg.com/736x/a6/cf/1f/a6cf1f340949a590bc8e75e25656f9b6.jpg",
+    title: "Lajes e Pré-moldados",
+    description: "Lajes, blocos, vigas e estruturas pré-moldadas",
+    image: "https://i.pinimg.com/736x/bc/2e/4d/bc2e4d10fb3d0f58c16828c5eb96e438.jpg",
     color: colors.primary.light
   },
   {

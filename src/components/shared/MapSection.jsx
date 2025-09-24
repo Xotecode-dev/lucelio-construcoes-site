@@ -59,7 +59,7 @@ export default function MapSection() {
                     <h4 className="font-semibold" style={{ color: colors.primary.main }}>
                       Contato
                     </h4>
-                    <p className="text-gray-600">(88) 99999-9999</p>
+                    <p className="text-gray-600">(88) 99608-8200</p>
                   </div>
                 </div>
 
@@ -85,16 +85,16 @@ export default function MapSection() {
                 Horário de Funcionamento
               </h3>
               <div className="space-y-2 text-gray-600">
-                <div className="flex justify-between">
-                  <span className="font-medium">Segunda a Sexta:</span>
+                <div className="flex">
+                  <span className="font-medium mr-2">Segunda a Sexta:</span>
                   <span>7h às 18h</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Sábado:</span>
-                  <span>7h às 16h</span>
+                <div className="flex">
+                  <span className="font-medium mr-2">Sábado:</span>
+                  <span>7h às 13h</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Domingo:</span>
+                <div className="flex">
+                  <span className="font-medium mr-2">Domingo:</span>
                   <span style={{ color: colors.accent.main }}>Fechado</span>
                 </div>
               </div>

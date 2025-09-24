@@ -45,7 +45,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
                       className="bg-[#25D366] hover:bg-[#20B85A] text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300"
                     >
-                      (11) 99999-9999
+                      (88) 99608-8200
                     </a>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                       Atendimento de segunda a sábado
                     </p>
                     <p className="text-[#3A3D82] font-semibold">
-                      (11) 3333-4444
+                      (88) 3683-3786
                     </p>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                       Para orçamentos e informações gerais
                     </p>
                     <p className="text-[#3A3D82] font-semibold">
-                      contato@lucelioconstrucoes.com.br
+                      lucelioconstrucoes@hotmail.com
                     </p>
                   </div>
                 </div>
@@ -103,9 +103,9 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-[#3A3D82] text-lg mb-2">Endereço</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Rua das Construções, 123<br />
-                      Centro - São Paulo/SP<br />
-                      CEP: 01234-567
+                      R. Padre Mororó, 1053<br />
+                      Bairro da Caixa D'água<br />
+                      Ipu - CE, 62250-000
                     </p>
                   </div>
                 </div>
@@ -119,22 +119,9 @@ export default function Contact() {
                     <h3 className="font-bold text-[#3A3D82] text-lg mb-2">Horário de Funcionamento</h3>
                     <div className="text-gray-600 space-y-1">
                       <p><strong>Segunda a Sexta:</strong> 7h às 18h</p>
-                      <p><strong>Sábado:</strong> 7h às 16h</p>
+                      <p><strong>Sábado:</strong> 7h às 13h</p>
                       <p><strong>Domingo:</strong> Fechado</p>
                     </div>
-                  </div>
-                </div>
-
-                {/* Parking */}
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#3A3D82] p-3 rounded-xl">
-                    <Car className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-[#3A3D82] text-lg mb-2">Estacionamento</h3>
-                    <p className="text-gray-600">
-                      Estacionamento gratuito para clientes
-                    </p>
                   </div>
                 </div>
               </div>

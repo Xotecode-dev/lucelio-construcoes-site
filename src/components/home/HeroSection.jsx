@@ -22,7 +22,7 @@ export default function HeroSection() {
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               <span className="text-[var(--color-white)]">Materiais de</span>{' '}
-              <span className="text-[var(--primary-red)]">Qualidade</span><br />
+              <span className="text-[var(--accent-main)]">Qualidade</span><br />
               <span className="text-[var(--color-white)]">para sua Obra</span>
             </h1>
             <p className="text-xl text-[var(--color-white)] mb-8 max-w-2xl">
