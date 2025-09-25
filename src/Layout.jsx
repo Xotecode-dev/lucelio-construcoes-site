@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Phone, MessageCircle, MapPin, Mail, Instagram, Facebook, Clock, Menu, X } from "lucide-react";
+import { Phone, MapPin, Mail, Instagram, Facebook, Clock, Menu, X } from "lucide-react";
 import { colors } from "./components/theme/colors.jsx";
+import { FaWhatsapp } from "react-icons/fa";
 
 // Importado o ícone X para fechar o menu
 // Importado o ícone Menu para abrir o menu
@@ -88,7 +89,7 @@ export default function Layout({ children }) {
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20B85A] text-white px-4 py-2 rounded-lg flex items-center gap-2 font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                <MessageCircle className="w-4 h-4" />
+                <FaWhatsapp className="w-4 h-4" />
                 <span className="hidden sm:inline">Orçamento</span>
               </a>
 

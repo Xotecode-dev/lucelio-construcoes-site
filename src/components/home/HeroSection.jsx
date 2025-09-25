@@ -1,5 +1,6 @@
 import React from "react";
-import { MessageCircle, Award, Users, Clock } from "lucide-react";
+import { Award, Users, Clock } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Frente from "../../assets/img/imagem da frente.png"
 
@@ -53,7 +54,7 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="px-8 py-4 rounded-xl flex items-center bg-[var(--color-whatsapp)] justify-center gap-3 font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-[var(--color-white)]"
               >
-                <MessageCircle className="w-5 h-5" />
+                <FaWhatsapp className="w-5 h-5" />
                 Solicitar Orçamento
               </a>
 

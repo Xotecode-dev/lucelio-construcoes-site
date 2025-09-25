@@ -1,8 +1,9 @@
 import React from "react";
-import { MessageCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import CimentoImg from "../assets/img/cimento.png";
 import Tintas from "../assets/img/tintas.png"
 import {colors} from "../components/theme/colors";
+import { FaWhatsapp } from "react-icons/fa";
 
 const productCategories = [
   {
@@ -104,7 +105,7 @@ export default function Products() {
                       className="inline-flex items-center gap-2 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg"
                       style={{ backgroundColor: category.color }}
                     >
-                      <MessageCircle className="w-4 h-4" />
+                      <FaWhatsapp className="w-4 h-4" />
                       Solicitar Orçamento
                       <ArrowRight className="w-4 h-4" />
                     </a>
@@ -129,7 +130,7 @@ export default function Products() {
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20B85A] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl inline-flex items-center gap-3"
               >
-                <MessageCircle className="w-5 h-5" />
+                <FaWhatsapp className="w-5 h-5" />
                 Falar com Especialista
               </a>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import { Phone, MessageCircle, MapPin, Mail, Clock, Car } from "lucide-react";
+import { Phone, MapPin, Mail, Clock, Car } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -32,7 +33,7 @@ export default function Contact() {
               <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start gap-4">
                   <div className="bg-[#25D366] p-3 rounded-xl">
-                    <MessageCircle className="w-6 h-6 text-white" />
+                    <FaWhatsapp className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
                     <h3 className="font-bold text-[#3A3D82] text-lg mb-2">WhatsApp</h3>
@@ -138,9 +139,9 @@ export default function Contact() {
                   href="https://wa.me/5588996088200" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-white text-[#D65C3E] px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="bg-white text-[var(--color-whatsapp)] px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <FaWhatsapp className="w-4 h-4" />
                   Falar no WhatsApp
                 </a>
               </div>

@@ -1,9 +1,10 @@
 import React from "react";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import CimentoImg from "../../assets/img/cimento.png";
 import { colors } from "../theme/colors";
 import Corredor from "../../assets/img/corredor.png"
 import Tintas from "../../assets/img/tintas.png"
+import { FaWhatsapp } from "react-icons/fa";
 
 const categories = [
   {
@@ -99,7 +100,7 @@ export default function ProductCategories() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 bg-[var(--color-whatsapp)]"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <FaWhatsapp className="w-4 h-4" />
                   Solicitar Orçamento
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </a>

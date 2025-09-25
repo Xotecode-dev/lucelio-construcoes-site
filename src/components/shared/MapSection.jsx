@@ -1,8 +1,9 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { MapPin, Phone, MessageCircle } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import { colors } from "../theme/colors";
 import 'leaflet/dist/leaflet.css';
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function MapSection() {
   return (
@@ -72,7 +73,7 @@ export default function MapSection() {
                     className="inline-flex items-center gap-3 px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full justify-center"
                     style={{ backgroundColor: colors.whatsapp }}
                   >
-                    <MessageCircle className="w-5 h-5 text-white" />
+                    <FaWhatsapp className="w-5 h-5 text-white" />
                     <span className="text-white">Como Chegar</span>
                   </a>
                 </div>
@@ -141,7 +142,7 @@ export default function MapSection() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-colors duration-300 text-white"
               style={{ backgroundColor: colors.whatsapp }}
             >
-              <MessageCircle className="w-4 h-4" />
+              <FaWhatsapp className="w-4 h-4" />
               Pedir Direções
             </a>
           </div>
