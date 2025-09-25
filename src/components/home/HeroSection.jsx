@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../ui/button";
 import { MessageCircle, Award, Users, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 import Frente from "../../assets/img/imagem da frente.png"
