@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-[var(--primary-main)]">
             <span>Por que Escolher a </span>
-            <span className="text-[var(--accent-main)]">Lucélio</span>?
+            <span className="text-[var(--accent-main)]">Lucélio Construções</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Mais de duas décadas construindo relacionamentos sólidos e fornecendo 
